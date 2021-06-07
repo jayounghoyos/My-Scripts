@@ -1,4 +1,4 @@
-var nombre = "oscar";
+var nombre = "Juan Andrés";
 
 nombre;
 
