@@ -1,8 +1,10 @@
-confirmation = int(input("Escribe tu edad: "))
+contador_externo = 0
+contador_interno = 0
 
-if confirmation > 1 and confirmation <= 12:
-    print(f"Eres un niño de {confirmation} años")
-elif confirmation > 13:
-    print("Me suda la polla tío")
-else:
-    print("Estás muerto")
+while contador_externo < 5:
+    while contador_interno < 6:
+        print(contador_externo, contador_interno)
+        contador_interno += 1
+
+    contador_externo += 1
+    contador_interno = 0
